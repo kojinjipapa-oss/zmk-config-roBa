@@ -109,7 +109,7 @@
 &kp Q      &kp W         &kp E         &kp R          &kp T                                              &kp Y             &kp U  &kp I      &kp O    &kp P
 &kp A      &kp S         &kp D         &kp F          &kp G               &none          &kp TAB         &kp H             &kp J  &kp K      &kp L    &kp LEFT_BRACKET
 &kp Z      &kp X         &kp C         &kp V          &kp B               &kp COLON      &kp SEMICOLON   &kp N             &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp BACKSPACE  &lt 2 INT_MUHENKAN  &kp SPACE      &kp LEFT_SHIFT  &lt 1 INT_HENKAN                             &kp JP_UNDERSCORE
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp BACKSPACE  &lt 2 INT_MUHENKAN  &kp SPACE      &kp LEFT_SHIFT  &lt 1 INT_HENKAN                             &kp NON_US_BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
