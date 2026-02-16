@@ -162,7 +162,7 @@
 &trans  &trans  &trans  &kp LEFT_SHIFT  &trans            &trans      &kp LEFT_SHIFT  &kp LEFT_GUI                                                   &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         MOUSE {
