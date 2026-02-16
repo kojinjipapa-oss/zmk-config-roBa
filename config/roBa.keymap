@@ -86,11 +86,6 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
-
-        ttt {
-            bindings = <&kp A>;
-            key-positions = <18 19 20 30 32 34 37>;
-        };
     };
 
     macros {
