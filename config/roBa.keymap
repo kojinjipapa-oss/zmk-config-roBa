@@ -147,10 +147,10 @@
 
         NUM {
             bindings = <
-&kp F11  &kp F12  &kp ASTERISK  &kp LEFT_PARENTHESIS  &none                                                 &kp MINUS  &kp N7        &kp N8        &kp N9        &kp SLASH
-&kp F6   &kp F7   &kp F8        &kp F9                &kp F10  &kp LC(LA(KP_NUMBER_0))      &kp BACKSPACE   &kp COLON  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp DOUBLE_QUOTES
-&kp F1   &kp F2   &kp F3        &kp F4                &kp F5   &kp EQUAL                    &kp UNDERSCORE  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA
-&trans   &trans   &trans        &trans                &trans   &trans                       &trans          &none                                                &kp PERIOD
+&kp F11  &kp F12  &kp ASTERISK  &kp LEFT_PARENTHESIS  &none                                   &kp MINUS  &kp N7        &kp N8        &kp N9        &kp SLASH
+&kp F6   &kp F7   &kp F8        &kp F9                &kp F10  &trans         &kp BACKSPACE   &kp COLON  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp DOUBLE_QUOTES
+&kp F1   &kp F2   &kp F3        &kp F4                &kp F5   &kp EQUAL      &kp UNDERSCORE  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA
+&trans   &trans   &trans        &trans                &trans   &trans         &trans          &none                                                &kp PERIOD
             >;
         };
 
