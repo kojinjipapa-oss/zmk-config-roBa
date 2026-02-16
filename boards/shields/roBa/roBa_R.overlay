@@ -20,7 +20,10 @@
         18 // J
         19 // K
         20 // L
+        30 // M
+        32 // >
         34 // Ctrl
+        37 // Shift
     >;
     require-prior-idle-ms = <500>;
 };
