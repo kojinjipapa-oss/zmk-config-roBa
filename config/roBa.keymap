@@ -160,7 +160,7 @@
             flavor = "balanced";
             hold-while-undecided;
         };
-
+         /*トラックボールでの拡大・縮小用behavior*/
         zp: zoom_tap {
             compatible = "zmk,behavior-hold-tap";
             label = "Zoom / Tap";
