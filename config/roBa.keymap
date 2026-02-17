@@ -44,7 +44,6 @@
 &lt {
     flavor = "balanced";
     tapping-term-ms = <200>; //200msホールドしたらレイヤ切り替わる
-    quick-tap-ms = <175>;    //1回目押下から175ms以内なら連打判定
 };
 
 /*マウスキー押下してから500ms後にAMLから抜ける*/
