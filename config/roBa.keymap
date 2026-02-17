@@ -160,7 +160,9 @@
             flavor = "balanced";
             hold-while-undecided;
         };
-         /*トラックボールでの拡大・縮小用behavior*/
+
+        /*トラックボールでの拡大・縮小用behavior*/
+
         zp: zoom_tap {
             compatible = "zmk,behavior-hold-tap";
             label = "Zoom / Tap";
@@ -178,7 +180,7 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R           &kp T                                                 &kp Y             &kp U  &kp I      &zp 0 O  &lt 5 P
+&kp Q      &kp W         &kp E         &kp R           &kp T                                                 &kp Y             &kp U  &kp I      &zp 0 O  &st 5 P
 &kp A      &kp S         &kp D         &kp F           &kp G               &kp LS(LG(S))      &kp BACKSPACE  &kp H             &kp J  &kp K      &kp L    &kp LEFT_BRACKET
 &kp Z      &kp X         &kp C         &kp V           &lt 6 B             &lt 3 TAB          &kp ESCAPE     &kp N             &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 2 INT_MUHENKAN  &kp SPACE          &kp ENTER      &lt 1 INT_HENKAN                             &kp JP_YEN
