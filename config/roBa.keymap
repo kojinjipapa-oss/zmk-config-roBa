@@ -157,6 +157,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
+            quick-tap-ms = <175>; //1回目押下から175ms以内なら連打判定
             flavor = "balanced";
             hold-while-undecided;
         };
@@ -170,6 +171,7 @@
             bindings = <&sc>, <&kp>;
 
             tapping-term-ms = <200>;
+            quick-tap-ms = <175>;
             flavor = "balanced";
             hold-while-undecided;
         };
