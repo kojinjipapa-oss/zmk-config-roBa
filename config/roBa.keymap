@@ -37,6 +37,13 @@
     quick-tap-ms = <0>;
 };
 
+/*レイヤータップの設定*/
+&lt {
+    flavor = "balanced";
+    tapping-term-ms = <200>; // 好みの時間を指定（200前後が一般的）
+    quick-tap-ms = <175>;    // ここは 175 くらい入れると連打しやすくなります
+};
+
 /*マウスキー押下してから500ms後にAMLから抜ける*/
 &mkp_input_listener { input-processors = <&zip_temp_layer 4 500>; };
 
