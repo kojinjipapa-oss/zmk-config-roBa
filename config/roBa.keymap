@@ -106,6 +106,21 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+	/*トラックボールでの拡大・縮小用マクロ*/
+		sc: scroll_control {
+        	compatible = "zmk,behavior-macro";
+        	#binding-cells = <0>;
+        	bindings =
+            	<&macro_press>,
+            	<&mo 5 &kp LCTRL>,
+            	<&macro_pause_for_release>,
+            	<&macro_release>,
+            	<&kp LCTRL &mo 5>;
+
+        	label = "Scroll Ctrl";
+    	};
+
     };
 
     behaviors {
@@ -129,16 +144,27 @@
         };
 
 	/*トラックボールでのスクロール設定*/
-    st: scroll_tap {
-        compatible = "zmk,behavior-hold-tap";
-        label = "Scroll / Tap";
-        bindings = <&mo>, <&kp>;
+    	st: scroll_tap {
+        	compatible = "zmk,behavior-hold-tap";
+        	label = "Scroll / Tap";
+        	bindings = <&mo>, <&kp>;
 
-        #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        flavor = "balanced";
-        hold-while-undecided;
-    };
+        	#binding-cells = <2>;
+        	tapping-term-ms = <200>;
+        	flavor = "balanced";
+        	hold-while-undecided;
+    	};
+
+		zp: zoom_tap {
+        	compatible = "zmk,behavior-hold-tap";
+        	label = "Zoom / Tap";
+        	#binding-cells = <2>;
+        	bindings = <&sc>, <&kp>;
+
+        	tapping-term-ms = <250>;
+        	flavor = "balanced";
+        	hold-while-undecided;
+    	};
 
     };
 
