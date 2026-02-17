@@ -86,6 +86,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        aaa {
+            bindings = <&none>;
+            key-positions = <12 11 13 2>;
+        };
     };
 
     macros {
