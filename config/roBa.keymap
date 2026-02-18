@@ -96,6 +96,14 @@
             bindings = <&kp LS(LG(LEFT_ARROW))>;
             key-positions = <11 12>;
         };
+
+        /* O(8) と P(9) 同時押しでズーム*/
+        zoom_combo {
+            bindings = <&sc>;
+            key-positions = <8 9>;
+            timeout-ms = <30>; //同時押しと判定する猶予時間 (ms)
+            require-prior-idle-ms = <150>; //タイピング中の誤爆を防ぐ設定
+        };
     };
 
     macros {
