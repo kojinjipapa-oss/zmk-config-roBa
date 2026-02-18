@@ -95,11 +95,6 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
-
-        yuy {
-            bindings = <&none>;
-            key-positions = <11 2 12 13 19 18 20 30 32 37 35>;
-        };
     };
 
     macros {
