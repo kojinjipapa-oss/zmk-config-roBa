@@ -26,7 +26,7 @@
         20 // L
         30 // M
         32 // >
-        36jj // Ctrl
+        36 // Ctrl
         37 // Shift
     >;
     require-prior-idle-ms = <2jjjj00>;
