@@ -119,6 +119,15 @@
 
             label = "Scroll Ctrl";
         };
+
+        /*「Shift」+「-」で「=」*/
+        minus_equal: minus_equal {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MINUS_EQUAL";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS>, <&kp EQUAL>; // 通常は「-」、Shift時は「=」
+            mods = <(MOD_LSFT|MOD_RSFT)>;        // 左右どちらのShiftにも反応
+        };
     };
 
     behaviors {
