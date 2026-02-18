@@ -29,7 +29,7 @@
         36jj // Ctrl
         37 // Shift
     >;
-    require-prior-idle-ms = <500>;
+    require-prior-idle-ms = <2jjjj00>;
 };
 
 / {
