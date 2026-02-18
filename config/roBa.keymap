@@ -127,7 +127,9 @@
             label = "MINUS_EQUAL";
             #binding-cells = <0>;
             bindings = <&kp MINUS>, <&kp EQUAL>;
- // 通常は「-」、Shift時は「=」
+
+            // 通常は「-」、Shift時は「=」
+
             mods = <(MOD_LSFT|MOD_RSFT)>;        // 左右どちらのShiftにも反応
         };
 
@@ -138,7 +140,9 @@
             label = "BACKSLASH_UNDER";
             #binding-cells = <0>;
             bindings = <&kp JP_YEN>, <&kp JP_UNDERSCORE>;
- // 通常は「\」、Shift時は「_」
+
+            // 通常は「\」、Shift時は「_」
+
             mods = <(MOD_LSFT|MOD_RSFT)>;        // 左右どちらのShiftにも反応
         };
     };
@@ -199,7 +203,7 @@
         default_layer {
             bindings = <
 &kp Q         &kp W         &kp E      &kp R           &kp T                                                    &kp Y      &kp U  &kp I      &zp 0 O  &st 5 P
-&kp A         &kp S         &kp D      &kp F           &kp G               &kp LS(LG(S))         &kp ESCAPE     &kp H      &kp J  &kp K      &kp L    &kp MINUS
+&kp A         &kp S         &kp D      &kp F           &kp G               &kp LS(LG(S))         &kp ESCAPE     &kp H      &kp J  &kp K      &kp L    &minus_equal
 &kp Z         &kp X         &kp C      &kp V           &lt 6 B             &lt 3 TAB             &kp BACKSPACE  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_ALT  &kp LEFT_WIN  &kp LCTRL  &kp LEFT_SHIFT  &lt 1 INT_MUHENKAN  &lt 2 INT_HENKAN      &kp ENTER      &kp SPACE                             &backslash_under
             >;
