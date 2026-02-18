@@ -71,12 +71,12 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
+        alt_tab {
             bindings = <&kp LA(TAB)>;
             key-positions = <11 12>;
         };
 
-        shift_tab {
+        alt_shift_tab {
             bindings = <&kp LS(LA(TAB))>;
             key-positions = <12 13>;
         };
@@ -87,7 +87,7 @@
         };
 
         double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
+            bindings = <&kp MINUS>;
             key-positions = <20 21>;
         };
 
