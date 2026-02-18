@@ -72,12 +72,12 @@
         compatible = "zmk,combos";
 
         tab {
-            bindings = <&kp TAB>;
+            bindings = <&kp LA(TAB)>;
             key-positions = <11 12>;
         };
 
         shift_tab {
-            bindings = <&kp LS(TAB)>;
+            bindings = <&kp LS(LA(TAB))>;
             key-positions = <12 13>;
         };
 
