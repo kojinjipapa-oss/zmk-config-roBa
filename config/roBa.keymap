@@ -82,8 +82,8 @@
         };
 
         double_quotation {
-            bindings = <&kp MINUS>;
-            key-positions = <20 21>;
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <8 9>;
         };
     };
 
