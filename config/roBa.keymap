@@ -98,6 +98,7 @@
         };
 
         /* O(8) と P(9) 同時押しでズーム*/
+
         zoom_combo {
             bindings = <&sc>;
             key-positions = <8 9>;
@@ -243,7 +244,7 @@
         ARROW {
             bindings = <
 &trans  &trans  &trans  &trans  &kp LC(HOME)                          &trans        &kp HOME        &kp UP_ARROW    &kp PAGE_UP      &kp ESCAPE
-&trans  &trans  &trans  &trans  &kp LC(END)       &trans      &trans  &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LS(LG(LC(RIGHT_ARROW)))
+&trans  &trans  &trans  &trans  &kp LC(END)       &trans      &trans  &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LS(LG(RIGHT_ARROW))
 &trans  &trans  &trans  &trans  &kp LEFT_CONTROL  &trans      &trans  &trans        &kp END         &none           &kp PAGE_DOWN    &trans
 &trans  &trans  &trans  &trans  &trans            &trans      &trans  &kp LEFT_GUI                                                   &trans
             >;
