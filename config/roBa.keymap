@@ -46,9 +46,9 @@
     tapping-term-ms = <200>; //200msホールドしたらレイヤ切り替わる
 };
 
-/*マウスキー押下してから500ms後にAMLから抜ける*/
+/*マウスキー押下してから10000ms後にAMLから抜ける*/
 
-&mkp_input_listener { input-processors = <&zip_temp_layer 4 300>; };
+&mkp_input_listener { input-processors = <&zip_temp_layer 4 10000>; };
 
 &trackball {
     automouse-layer = <4>;
