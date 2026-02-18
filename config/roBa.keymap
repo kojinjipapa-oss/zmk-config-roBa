@@ -71,14 +71,14 @@
     combos {
         compatible = "zmk,combos";
 
-        alt_tab {
-            bindings = <&kp LA(TAB)>;
-            key-positions = <11 12>;
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <20 19>;
         };
 
-        alt_shift_tab {
+        shift_tab {
             bindings = <&kp LS(LA(TAB))>;
-            key-positions = <12 13>;
+            key-positions = <19 18>;
         };
 
         lp_at {
@@ -88,12 +88,12 @@
 
         win_shift_right {
             bindings = <&kp LS(LG(RIGHT_ARROW))>;
-            key-positions = <21 20>;
+            key-positions = <13 12>;
         };
 
         win_shift_left {
             bindings = <&kp LS(LG(LEFT_ARROW))>;
-            key-positions = <19 18>;
+            key-positions = <11 12>;
         };
     };
 
