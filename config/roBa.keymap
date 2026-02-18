@@ -81,9 +81,19 @@
             key-positions = <12 13>;
         };
 
-        double_quotation {
+        lp_at {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <8 9>;
+        };
+
+        win_shift_right {
+            bindings = <&kp LS(LG(RIGHT_ARROW))>;
+            key-positions = <21 20>;
+        };
+
+        win_shift_left {
+            bindings = <&kp LS(LG(LEFT_ARROW))>;
+            key-positions = <19 18>;
         };
     };
 
