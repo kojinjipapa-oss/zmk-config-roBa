@@ -128,6 +128,15 @@
             bindings = <&kp MINUS>, <&kp EQUAL>; // 通常は「-」、Shift時は「=」
             mods = <(MOD_LSFT|MOD_RSFT)>;        // 左右どちらのShiftにも反応
         };
+
+        /*「Shift」+「\」で「_」*/
+        backslash_under: backslash_under {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BACKSLASH_UNDER";
+            #binding-cells = <0>;
+            bindings = <&kp JP_YEN>, <&kp JP_UNDERSCORE>; // 通常は「\」、Shift時は「_」
+            mods = <(MOD_LSFT|MOD_RSFT)>;        // 左右どちらのShiftにも反応
+        };
     };
 
     behaviors {
