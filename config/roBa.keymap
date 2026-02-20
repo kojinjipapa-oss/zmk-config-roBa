@@ -134,7 +134,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "MINUS_TILDE";
             #binding-cells = <0>;
-            bindings = <&kp MINUS>, <&kp PLUSL>;
+            bindings = <&kp MINUS>, <&kp PLUS>;
 
             // 通常は「-」、Shift時は「~」
 
