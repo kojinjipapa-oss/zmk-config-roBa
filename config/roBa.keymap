@@ -7,7 +7,8 @@
 #include <dt-bindings/zmk/pointing.h>
 
 /*スクロール量の定義*/
-//#define ZMK_POINTING_DEFAULT_SCRL_VAL 80
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 80
+
 /*OS設定を日本語キーボードのまま使用するための変換定義*/
 
 #define JP_DQUOTE       AT                // "
