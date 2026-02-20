@@ -73,8 +73,7 @@
 };
 
 / {
-/ {
-    
+     /* スナイプモード（減速）の定義 */
     zip_snipe_mm: zip_snipe_mm {
         compatible = "zmk,input-processor-temp-setting";
         #input-processor-cells = <0>;
@@ -224,8 +223,6 @@
             #binding-cells = <0>;
             bindings = <&zip_snipe_mm>; // 上で定義したsnipe_mmを呼び出す
         };
-        };
-
     };
 
     keymap {
