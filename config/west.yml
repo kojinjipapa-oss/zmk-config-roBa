@@ -4,13 +4,10 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: kumamuk-git
       url-base: https://github.com/kumamuk-git
-      # マウス機能に強い zmk-pm-w-m-v3 ブランチを持つリポジトリを追加
-    - name: urob
-      url-base: https://github.com/urob
   projects:
     - name: zmk
-      remote: urob
-      revision: main
+      remote: zmkfirmware
+      revision: v0.3-branch
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: kumamuk-git
