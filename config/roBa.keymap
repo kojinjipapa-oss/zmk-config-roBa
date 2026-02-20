@@ -132,7 +132,7 @@
 
         minus_tilde: minus_tilde {
             compatible = "zmk,behavior-mod-morph";
-            label = "MINUS_EQUAL";
+            label = "MINUS_TILDE";
             #binding-cells = <0>;
             bindings = <&kp MINUS>, <&kp PLUSL>;
 
