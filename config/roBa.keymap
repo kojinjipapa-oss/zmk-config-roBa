@@ -216,6 +216,14 @@
             require-prior-idle-ms = <125>; //直前に他のキーを打っていたら（125ms以内）、強制的にタップ（文字入力）にする
             hold-while-undecided;
         };
+
+        /* 押している間だけ zip_snipe_mm を有効にする設定 */
+        snipe_mode: snipe_mode {
+            compatible = "zmk,behavior-input-two-state";
+            #binding-cells = <0>;
+            bindings = <&zip_snipe_mm>;
+        };
+
     };
 
     keymap {
