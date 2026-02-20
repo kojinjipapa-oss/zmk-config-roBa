@@ -37,7 +37,20 @@
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_temp_layer 4 10000>;
+        //input-processors = <&zip_temp_layer 4 10000>;
+
+    /* 精密モード（レイヤー7）の設定を追加 */
+        smaller_dpi {
+            layers = <7>;
+            input-processors = <&zip_xy_scaler 1 5>; // 速度を1/5に
+        };
+
+        /* 通常時（レイヤー0）の設定：動かしたらレイヤー4に飛ぶ */
+        change_layer {
+            layers = <0>;
+            input-processors = <&zip_xy_scaler 1 1>, <&zip_temp_layer 4 10000>;
+        };
+
     };
 };
 
