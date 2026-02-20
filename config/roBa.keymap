@@ -128,15 +128,15 @@
             label = "Scroll Ctrl";
         };
 
-        /*「Shift」+「-」で「=」*/
+        /*「Shift」+「-」で「~」*/
 
-        minus_equal: minus_equal {
+        minus_tilde: minus_tilde {
             compatible = "zmk,behavior-mod-morph";
             label = "MINUS_EQUAL";
             #binding-cells = <0>;
-            bindings = <&kp MINUS>, <&kp EQUAL>;
+            bindings = <&kp MINUS>, <&kp PLUSL>;
 
-            // 通常は「-」、Shift時は「=」
+            // 通常は「-」、Shift時は「~」
 
             mods = <(MOD_LSFT|MOD_RSFT)>;        // 左右どちらのShiftにも反応
         };
