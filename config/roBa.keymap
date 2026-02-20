@@ -283,25 +283,3 @@
         };
     };
 };
-
-
-tb_right_listener: tb_right_listener {
-    compatible = "zmk,input-listener";
-    device = <&trackball>;
-    status = "okay";
-
-    smaller_dpi {
-        layers = <7>;
-        input-processors =
-            <&sensor_rotation_right>,
-            <&zip_xy_scaler 1 5>;
-    };
-
-    change_layer {
-        layers = <0>;
-        input-processors = 
-            <&sensor_rotation_right>,
-            <&zip_xy_scaler 1 1>,
-            <&zip_temp_layer 4 10000>; 
-    };
-};
