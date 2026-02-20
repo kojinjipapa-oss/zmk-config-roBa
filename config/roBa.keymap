@@ -53,8 +53,6 @@
 &mkp_input_listener { input-processors = <&zip_temp_layer 4 10000>; };
 
 &trackball {
-    status = "okay"; // ここで有効化
-    input-processors = <&zip_xy_scaler 1 1>; // 通常時は1倍
     //automouse-layer = <4>;
     scroll-layers = <5>;
 
@@ -72,14 +70,7 @@
 };
 
 / {
-     /* スナイプモード（減速）の定義 */
-    zip_snipe_mm: zip_snipe_mm {
-        compatible = "zmk,input-processor-temp-setting";
-        #input-processor-cells = <0>;
-        input-processors = <&zip_xy_scaler 1 4>; 
-    };
-
-    combos {
+     combos {
         compatible = "zmk,combos";
 
         tab {
@@ -214,13 +205,6 @@
             flavor = "tap-preferred";
             require-prior-idle-ms = <125>; //直前に他のキーを打っていたら（125ms以内）、強制的にタップ（文字入力）にする
             hold-while-undecided;
-        };
-
-        /* 押している間だけ zip_snipe_mm を有効にする設定 */
-        snipe: snipe {
-            compatible = "zmk,behavior-input-two-state";
-            #binding-cells = <0>;
-            bindings = <&zip_snipe_mm>; // 上で定義したsnipe_mmを呼び出す
         };
     };
 
