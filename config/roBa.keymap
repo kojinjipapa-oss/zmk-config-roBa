@@ -51,12 +51,13 @@
 
 &mkp_input_listener { input-processors = <&zip_temp_layer 4 10000>; };
 
-/* ポインティングデバイスの設定セクション */
 &ib_tp {
-    /* スナイプモード（低速化）の定義 */
-    snipe_mm: snipe_mm {
-        layers = <MOUSE_LAYER>; // マウスレイヤーを指定
-        input-processors = <&zip_xy_scaler 1 5>; // 1/5 に減速
+    input-processors = <&zip_xy_scaler 3 2>; // 通常時
+
+    /* スナイプモードの定義 (1/4の速度に落とす例) */
+    zip_snipe_mm: zip_snipe_mm {
+        debug-name = "ZIP Snipe";
+        input-processors = <&zip_xy_scaler 1 4>; 
     };
 };
 
