@@ -100,6 +100,16 @@
             bindings = <&sc>;
             key-positions = <8 9>;
         };
+
+        win_ctrl_right {
+            bindings = <&kp LC(LG(RIGHT_ARROW))>;
+            key-positions = <24 25>;
+        };
+
+        win_ctrl_left {
+            bindings = <&kp LC(LG(LEFT_ARROW))>;
+            key-positions = <23 24>;
+        };
     };
 
     macros {
