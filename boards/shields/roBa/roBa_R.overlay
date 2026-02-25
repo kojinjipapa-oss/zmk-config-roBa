@@ -20,14 +20,14 @@
         1 // W
         2 // E
         3 // R
-        7 // i
+        7 // I
         13 // F
         18 // J
         19 // K
         20 // L
         30 // M
         32 // >
-        37 // Shift
+        38 // Shift
     >;
     require-prior-idle-ms = <200>;
 };
