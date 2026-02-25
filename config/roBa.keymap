@@ -76,22 +76,22 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <20 19>;
+            key-positions = <20 19 21>;
         };
 
         shift_tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <19 18>;
+            key-positions = <19 18 20>;
         };
 
         win_shift_right {
             bindings = <&kp LS(LG(RIGHT_ARROW))>;
-            key-positions = <13 12>;
+            key-positions = <13 12 14>;
         };
 
         win_shift_left {
             bindings = <&kp LS(LG(LEFT_ARROW))>;
-            key-positions = <11 12>;
+            key-positions = <11 12 10>;
         };
 
         /* O(8) と P(9) 同時押しでズーム*/
@@ -103,12 +103,12 @@
 
         win_ctrl_right {
             bindings = <&kp LC(LG(RIGHT_ARROW))>;
-            key-positions = <24 25>;
+            key-positions = <24 25 26>;
         };
 
         win_ctrl_left {
             bindings = <&kp LC(LG(LEFT_ARROW))>;
-            key-positions = <23 24>;
+            key-positions = <23 24 22>;
         };
     };
 
