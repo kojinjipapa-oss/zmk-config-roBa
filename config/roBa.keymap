@@ -250,10 +250,10 @@
 
         ARROW {
             bindings = <
-&kp GRAVE  &trans  &trans  &kp LC(LA(DEL))      &kp LEFT_WIN                              &trans     &kp HOME        &kp UP_ARROW    &kp PAGE_UP      &trans
-&trans     &trans  &trans  &kp LA(PRINTSCREEN)  &kp LCTRL     &trans          &trans      &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LS(LG(RIGHT_ARROW))
-&trans     &trans  &trans  &kp PRINTSCREEN      &trans        &trans          &trans      &trans     &kp END         &none           &kp PAGE_DOWN    &trans
-&trans     &trans  &trans  &trans               &trans        &kp LSHIFT      &kp DELETE  &kp ENTER                                                   &trans
+&kp GRAVE  &trans  &trans  &kp LC(LA(DEL))      &kp LEFT_WIN                          &trans     &kp HOME        &kp UP_ARROW    &kp PAGE_UP      &trans
+&trans     &trans  &trans  &kp LA(PRINTSCREEN)  &kp LCTRL     &trans      &trans      &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LS(LG(RIGHT_ARROW))
+&trans     &trans  &trans  &kp PRINTSCREEN      &trans        &trans      &trans      &trans     &kp END         &none           &kp PAGE_DOWN    &trans
+&trans     &trans  &trans  &trans               &trans        &trans      &kp DELETE  &kp ENTER                                                   &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
