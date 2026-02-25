@@ -86,7 +86,7 @@
 
         win_shift_right {
             bindings = <&kp LS(LG(RIGHT_ARROW))>;
-            key-positions = <13 12 14>;
+            key-positions = <13 12 11>;
         };
 
         win_shift_left {
