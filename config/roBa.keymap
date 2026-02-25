@@ -103,7 +103,7 @@
 
         win_ctrl_right {
             bindings = <&kp LC(LG(RIGHT_ARROW))>;
-            key-positions = <24 25 26>;
+            key-positions = <24 25 23>;
         };
 
         win_ctrl_left {
