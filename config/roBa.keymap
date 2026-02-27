@@ -244,7 +244,7 @@
 &kp F11  &kp F12  &kp ASTERISK  &kp COMMA  &kp PERIOD                        &kp MINUS         &kp N7        &kp N8        &kp N9        &kp SLASH
 &kp F6   &kp F7   &kp F8        &kp F9     &kp F10     &trans      &kp SQT   &kp COLON         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp DOUBLE_QUOTES
 &kp F1   &kp F2   &kp F3        &kp F4     &kp F5      &trans      &kp PLUS  &kp UNDERSCORE    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0
-&trans   &trans   &trans        &trans     &trans      &trans      &trans    &kp LEFT_CONTROL                                            &kp COMMA
+&trans   &trans   &trans        &trans     &trans      &trans      &trans    &kp LEFT_CONTROL                                            &kp HASH
             >;
         };
 
