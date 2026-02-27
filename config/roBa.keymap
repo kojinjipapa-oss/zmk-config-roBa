@@ -253,7 +253,7 @@
 &kp GRAVE  &trans  &kp LC(LA(DELETE))  &kp F2               &kp LCTRL                             &trans     &kp HOME        &kp UP_ARROW    &kp PAGE_UP      &kp LC(V)
 &trans     &trans  &trans              &kp LA(PRINTSCREEN)  &kp LEFT_WIN  &trans      &trans      &kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(C)
 &trans     &trans  &trans              &kp PRINTSCREEN      &kp TAB       &trans      &trans      &trans     &kp END         &none           &kp PAGE_DOWN    &kp LC(X)
-&trans     &trans  &trans              &trans               &trans        &trans      &kp DELETE  &kp ENTER                                                   &kp LC(Z)
+&trans     &trans  &trans              &kp LEFT_ALT         &trans        &trans      &kp DELETE  &kp ENTER                                                   &kp LC(Z)
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
